@@ -1,6 +1,6 @@
 # CalculadoraCientifica
 
-# Nome do projeto
+# Projeto Calculadora Cientifica
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -9,6 +9,11 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 <img src="imagem.png" alt="Exemplo imagem">
+
+
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
@@ -157,6 +162,14 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
 > - [x] 07/10 a 27/10 - Sprint 2 | ✖️
 > - [x] 04/11 a 24/11 - Sprint 3 | ✖️
 > - [x] 12/12 - Feira de soluções
+
+
+
+## :bookmark: Tecnologias Utilizadas
+> * [VisualG](https://sourceforge.net/projects/visualg30/)
+> * [Portugol](https://portugol.dev/)
+> * [Git/Github (Controle de versão)](https://github.com/)
+> * [Typescript](https://www.typescriptlang.org/)
 
 
 ## 📝 Licença
