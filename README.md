@@ -84,7 +84,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEu44UkxoTOUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673968264249?e=1732752000&v=beta&t=h9LSv0boQ4bCkdbDoZEKJLiQcgiUS1Edd81OQqGGGqw" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Julia Alves</b>
         </sub>
