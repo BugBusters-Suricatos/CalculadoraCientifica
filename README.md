@@ -82,6 +82,16 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
+
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b> Pedro Mattos </b>
+        </sub>
+      </a>
+    </td>
+    
     <td align="center">
       <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQEu44UkxoTOUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673968264249?e=1732752000&v=beta&t=h9LSv0boQ4bCkdbDoZEKJLiQcgiUS1Edd81OQqGGGqw" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
@@ -97,17 +107,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
           <b>Thomas Heinrich</b>
         </sub>
       </a>
-    </td>
-
-        <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src=https://media.licdn.com/dms/image/v2/C4D03AQFB1hksRxMSTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1521304952841?e=1732752000&v=beta&t=wiEe2XznVuYPctTtSU2WoxYvPMg9OlDfvlmiM4rX7k4"/><br>
-        <sub>
-          <b> Cleber Kirch </b>
-        </sub>
-      </a>
-    </td>
-    
+    </td>    
   </tr>
 </table>
 
