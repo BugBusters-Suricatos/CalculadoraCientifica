@@ -78,7 +78,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b> Pedro Mattos </b>
         </sub>
       </a>
     </td>
