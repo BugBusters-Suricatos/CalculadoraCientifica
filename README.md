@@ -98,6 +98,16 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
+
+        <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src=https://media.licdn.com/dms/image/v2/C4D03AQFB1hksRxMSTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1521304952841?e=1732752000&v=beta&t=wiEe2XznVuYPctTtSU2WoxYvPMg9OlDfvlmiM4rX7k4"/><br>
+        <sub>
+          <b> Cleber Kirch </b>
+        </sub>
+      </a>
+    </td>
+    
   </tr>
 </table>
 
