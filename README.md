@@ -68,9 +68,7 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
 
 <table>
   <tr>
@@ -78,7 +76,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b> Pedro Mattos </b>
+          <b>Pedro Mattos</b>
         </sub>
       </a>
     </td>    
@@ -87,6 +85,58 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQEu44UkxoTOUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673968264249?e=1732752000&v=beta&t=h9LSv0boQ4bCkdbDoZEKJLiQcgiUS1Edd81OQqGGGqw" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Julia Alves</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
+        </sub>
+      </a>
+    </td>    
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
+        </sub>
+      </a>
+    </td>    
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Thomas Heinrich</b>
         </sub>
       </a>
     </td>
