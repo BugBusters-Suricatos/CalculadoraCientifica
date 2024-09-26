@@ -140,3 +140,6 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+
+https://www.linkedin.com/posts/jedaneves_estaergioemti-vagajunior-oportunidadedecrescimento-activity-7245039441088565248-mA5i?utm_source=share&utm_medium=member_desktop
