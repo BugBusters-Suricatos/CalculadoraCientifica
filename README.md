@@ -136,9 +136,9 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHs0D54BrFZoQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727390111499?e=1732752000&v=beta&t=ilaJNAeOYsweqvk1lZsdiDVwijP80Q_o1w16E5iuvpA" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Thomas Heinrich</b>
+          <b>Ed Wilson</b>
         </sub>
       </a>
     </td>
@@ -146,7 +146,7 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
       <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Ed Wilson</b>
+          <b>Text</b>
         </sub>
       </a>
     </td>    
