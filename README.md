@@ -121,7 +121,7 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1727996400&v=beta&t=KfvjbB_IteCf6mpRsmzNo1AmuHDHpjwPI2S_fjtah-s" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>Kauã Rabelo</b>
         </sub>
