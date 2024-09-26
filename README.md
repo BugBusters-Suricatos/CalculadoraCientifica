@@ -15,48 +15,18 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+## :dart: Objetivo
+>Criar uma solução computacional , onde será possivel usar uma calculadora cientifíca que o usuário possa fazer suas expressões matemática com tranquilidade. 
 
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
-
-## 💻 Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+## :page_facing_up: Requisitos Funcionais
+> * Todas as operações seja feitas;
+> * oferece uma ampla gama de funções;
+> *  raízes quadradas, potenciação, integração numérica
 
 
-## 🚀 Instalando <nome_do_projeto>
+## :page_with_curl: Requisitos Não Funcionais
+> * Documentações (manual de usuário e instruções de uso).
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
 
 ## 📫 Contribuindo para <nome_do_projeto>
 
