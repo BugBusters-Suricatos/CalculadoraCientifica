@@ -131,9 +131,9 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQECYQD2jM6tVQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680028876588?e=1727996400&v=beta&t=rufH0PvH6tbWB1c_WCaA7rdbTkkAa2gzxrNVkJ18q9Q" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Thomas Heinrich</b>
+          <b>William Honda</b>
         </sub>
       </a>
     </td>
