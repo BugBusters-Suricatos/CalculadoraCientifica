@@ -82,7 +82,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>    
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEu44UkxoTOUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673968264249?e=1732752000&v=beta&t=h9LSv0boQ4bCkdbDoZEKJLiQcgiUS1Edd81OQqGGGqw" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEu44UkxoTOUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673968264249?e=1732752000&v=beta&t=h9LSv0boQ4bCkdbDoZEKJLiQcgiUS1Edd81OQqGGGqw" width="100px;" alt="Foto da Julia Alves"/><br>
         <sub>
           <b>Julia Alves</b>
         </sub>
@@ -90,17 +90,15 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Thomas Heinrich"/><br>
         <sub>
           <b>Thomas Heinrich</b>
         </sub>
       </a>
     </td>    
-  </tr>
-  <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEXmf6oRfOryQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719508197152?e=1732752000&v=beta&t=Lw_T1BqzDmaVce6mY8x4q7ws-FfwT4kLixDSdV6k8OY" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEXmf6oRfOryQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719508197152?e=1732752000&v=beta&t=Lw_T1BqzDmaVce6mY8x4q7ws-FfwT4kLixDSdV6k8OY" width="100px;" alt="Foto do Kelvin Silva"/><br>
         <sub>
           <b>Kelvin Silva</b>
         </sub>
@@ -108,25 +106,25 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/C4D03AQFB1hksRxMSTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1521304952841?e=1732752000&v=beta&t=wiEe2XznVuYPctTtSU2WoxYvPMg9OlDfvlmiM4rX7k4" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQFB1hksRxMSTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1521304952841?e=1732752000&v=beta&t=wiEe2XznVuYPctTtSU2WoxYvPMg9OlDfvlmiM4rX7k4" width="100px;" alt="Foto do Cleber Kirch"/><br>
         <sub>
           <b>Cleber Kirch</b>
         </sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1727996400&v=beta&t=KfvjbB_IteCf6mpRsmzNo1AmuHDHpjwPI2S_fjtah-s" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1727996400&v=beta&t=KfvjbB_IteCf6mpRsmzNo1AmuHDHpjwPI2S_fjtah-s" width="100px;" alt="Foto do Kauã Rabelo"/><br>
         <sub>
           <b>Kauã Rabelo</b>
         </sub>
       </a>
     </td>    
-  </tr>
-  <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D35AQECYQD2jM6tVQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680028876588?e=1727996400&v=beta&t=rufH0PvH6tbWB1c_WCaA7rdbTkkAa2gzxrNVkJ18q9Q" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQECYQD2jM6tVQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680028876588?e=1727996400&v=beta&t=rufH0PvH6tbWB1c_WCaA7rdbTkkAa2gzxrNVkJ18q9Q" width="100px;" alt="Foto do William Honda"/><br>
         <sub>
           <b>William Honda</b>
         </sub>
@@ -134,7 +132,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHs0D54BrFZoQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727390111499?e=1732752000&v=beta&t=ilaJNAeOYsweqvk1lZsdiDVwijP80Q_o1w16E5iuvpA" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHs0D54BrFZoQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727390111499?e=1732752000&v=beta&t=ilaJNAeOYsweqvk1lZsdiDVwijP80Q_o1w16E5iuvpA" width="100px;" alt="Foto do Ed Wilson"/><br>
         <sub>
           <b>Ed Wilson</b>
         </sub>
@@ -142,26 +140,15 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQG8MQ0FH-A8Kw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694276786542?e=1732752000&v=beta&t=ZryqWPgTFZJQnZ0LCriRHSMSlBcyjDa6EBauplnzg3Y" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQG8MQ0FH-A8Kw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694276786542?e=1732752000&v=beta&t=ZryqWPgTFZJQnZ0LCriRHSMSlBcyjDa6EBauplnzg3Y" width="100px;" alt="Foto do Aguinaldo Cardoso"/><br>
         <sub>
           <b>Aguinaldo Cardoso</b>
         </sub>
       </a>
-    </td>    
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHifMQK3LB5nQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721850081829?e=1732752000&v=beta&t=wcdYkS1Rr2SqGjr0zSZ1G1DDQLpLGYr5qPEiFHmKdyo" width="100px;" alt="Foto do Jordan Mello"/><br>
-        <sub>
-          <b>Jordan Mello</b>
-        </sub>
-      </a>
     </td>
-    <td align="center"></td>
-    <td align="center"></td>
   </tr>
 </table>
+
 
 
 ## :calendar: Cronograma
