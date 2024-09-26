@@ -154,7 +154,7 @@ Claro! Aqui está a tabela com Thomas Heinrich duplicado sete vezes:
 </table>
 
 ## :calendar: Cronograma
-> - [x] 05/09 - Kick-off
+> - [x] 05/09 - Kick-off ⌛
 > - [x] 09/09 a 29/09 - Sprint 1 | ✖️
 > - [x] 07/10 a 27/10 - Sprint 2 | ✖️
 > - [x] 04/11 a 24/11 - Sprint 3 | ✖️
