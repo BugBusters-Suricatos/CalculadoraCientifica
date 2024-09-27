@@ -41,12 +41,11 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Membros do Projeto
-
 <table>
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Pedro Mattos"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Pedro Mattos</b>
         </sub>
@@ -119,18 +118,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
       </a>
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHifMQK3LB5nQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721850081829?e=1732752000&v=beta&t=wcdYkS1Rr2SqGjr0zSZ1G1DDQLpLGYr5qPEiFHmKdyo" width="100px;" alt="Foto do Jordan Mello"/><br>
-        <sub>
-          <b>Jordan Mello</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
 </table>
-
 
 
 ## :calendar: Cronograma
