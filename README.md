@@ -128,10 +128,6 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
   </tr>
 </table>
 
