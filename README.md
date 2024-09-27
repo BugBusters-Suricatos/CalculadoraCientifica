@@ -40,6 +40,7 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
+## Membros
 ## Membros do Projeto
 <table>
   <tr>
@@ -118,21 +119,8 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
       </a>
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHifMQK3LB5nQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721850081829?e=1732752000&v=beta&t=wcdYkS1Rr2SqGjr0zSZ1G1DDQLpLGYr5qPEiFHmKdyo" width="100px;" alt="Foto do Jordan Mello"/><br>
-        <sub>
-          <b>Jordan Mello</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-  </tr>
 </table>
+
 
 
 ## :calendar: Cronograma
