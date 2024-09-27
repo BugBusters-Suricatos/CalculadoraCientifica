@@ -44,7 +44,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGScqm15wL4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686752008218?e=1732752000&v=beta&t=_PJ4G10fhg-FvBt5yXdiWLHA8yWhbFXFRYa0z5AfGBI" width="100px;" alt="Foto do Pedro Mattos"/><br>
         <sub>
           <b>Pedro Mattos</b>
         </sub>
@@ -60,7 +60,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQF4iD7Ew2AeyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727390977509?e=1732752000&v=beta&t=DmQmgLe4uyTwPb583N58681BE2mH3vrK19aVMiBlyuQ" width="100px;" alt="Foto do Thomas Heinrich"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFyYWXQs7MO_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693878124431?e=1732752000&v=beta&t=XjfJZ48pYuMc_rm4061Cquz-G99NGTZ-k444WsHuNcI" width="100px;" alt="Foto do Thomas Heinrich"/><br>
         <sub>
           <b>Thomas Heinrich</b>
         </sub>
@@ -116,6 +116,20 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHifMQK3LB5nQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721850081829?e=1732752000&v=beta&t=wcdYkS1Rr2SqGjr0zSZ1G1DDQLpLGYr5qPEiFHmKdyo" width="100px;" alt="Foto do Jordan Mello"/><br>
+        <sub>
+          <b>Jordan Mello</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
   </tr>
 </table>
 
