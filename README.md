@@ -21,7 +21,7 @@
 ## :page_facing_up: Requisitos Funcionais
 > * Todas as operações seja feitas;
 > * oferece uma ampla gama de funções;
-> *  raízes quadradas, potenciação, integração numérica
+> * raízes quadradas, potenciação, integração numérica
 
 
 ## :page_with_curl: Requisitos Não Funcionais
