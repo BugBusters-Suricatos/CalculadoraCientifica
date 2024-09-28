@@ -16,7 +16,7 @@
 </p>
 
 ## :dart: Objetivo
->Criar uma solução computacional , onde será possivel usar uma calculadora cientifíca que o usuário possa fazer suas expressões matemática com tranquilidade. 
+>Criar uma solução computacional , onde será possível usar uma calculadora científica que o usuário possa fazer suas expressões matemática com tranquilidade e melhor experiência do usuário. 
 
 ## :page_facing_up: Requisitos Funcionais
 > * Todas as operações seja feitas;
