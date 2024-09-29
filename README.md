@@ -119,7 +119,17 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
       </a>
     </td>
   </tr>
-</table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQH0LcFjvOdkQg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715695704661?e=1733356800&v=beta&t=fmXY4oaT4y_i965OaSZnNlhkj3GZlT1wD-Io4OCTWvk" width="100px;" alt="Foto do Jordan Mello no GitHub"/><br>
+        <sub>
+          <b>Jordan Mello</b>
+        </sub>
+      </a>
+    </td>    
+    <td align="center">
 
 
 
