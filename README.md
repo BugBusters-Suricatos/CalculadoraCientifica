@@ -110,8 +110,6 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>
-    <table>
-  <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQG8MQ0FH-A8Kw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694276786542?e=1732752000&v=beta&t=ZryqWPgTFZJQnZ0LCriRHSMSlBcyjDa6EBauplnzg3Y" width="100px;" alt="Foto do Aguinaldo Cardoso"/><br>
@@ -120,18 +118,16 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>
-      </tr>
-       <tr>
-       <td align="center">
- <a href="#" title="defina o título do link">
+    <td align="center">
+      <a href="#" title="defina o título do link">
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQH0LcFjvOdkQg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715695704661?e=1733356800&v=beta&t=fmXY4oaT4y_i965OaSZnNlhkj3GZlT1wD-Io4OCTWvk" width="100px;" alt="Foto do Jordan Mello no GitHub"/><br>
         <sub>
           <b>Jordan Mello</b>
         </sub>
       </a>
     </td>   
-</tr>
-    </table>td align="center">
+  </tr>
+</table>
 
 ## :calendar: Cronograma
 > - [x] 05/09 - Kick-off ⌛
