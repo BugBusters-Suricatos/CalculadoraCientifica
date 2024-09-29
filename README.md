@@ -120,7 +120,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>
-  </tr>
+      </tr>
        <tr>
        <td align="center">
  <a href="#" title="defina o título do link">
