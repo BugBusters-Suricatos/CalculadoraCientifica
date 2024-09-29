@@ -128,8 +128,8 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
         </sub>
       </a>
     </td>   
-
-
+</tr>
+<td align="center">
 
 ## :calendar: Cronograma
 > - [x] 05/09 - Kick-off ⌛
