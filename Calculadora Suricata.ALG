@@ -6,6 +6,49 @@ X,FLAG: LOGICO     // variáveis de controle
 novonumero: inteiro
 num1, num2, result: real
 
+
+valorFat, fatorialValor, iFat  : inteiro
+
+funcao FatorialPositivoOuNegativo(n : inteiro):inteiro
+var
+   tempFat : inteiro
+	resultado : inteiro
+Inicio
+   tempFat <- n
+   iFat <- n-1
+
+		enquanto iFat  > 1 faca
+			tempFat <- tempFat * iFat
+			iFat <- iFat-1
+		fimenquanto
+
+		resultado <- tempFat
+
+	retorne resultado
+fimfuncao
+
+funcao fatorialContinuacao(n : inteiro):inteiro
+var
+   tempFat : inteiro
+	resultado : inteiro
+Inicio
+
+	se (n = 0) entao
+		resultado <- 1
+	senao
+		se (n > 0) entao
+			resultado <- FatorialPositivoOuNegativo(n)
+		senao
+			resultado <- 1 / FatorialPositivoOuNegativo(-n)
+		fimse
+
+	fimse
+
+	retorne resultado
+
+
+fimfuncao
+
 Procedimento continuacao
 Inicio
 Escreval("Opções:")
@@ -118,6 +161,31 @@ fimse
 
 FimProcedimento
 
+Procedimento fatorial
+
+Inicio
+	limpatela
+	fatorialValor <- 0
+	Escreval("Fatorial")
+	Escreva("Digite o número:")
+	Leia(valorFat)
+
+	se (valorFat = 0) entao
+		valorFat <- 1
+	senao
+   	se (valorFat > 0) entao
+         num1 <- FatorialPositivoOuNegativo(valorFat)
+   	senao
+         num1 <- (1 / FatorialPositivoOuNegativo(-valorFat))
+   	fimse
+
+	fimse
+   result := num1
+	Escreval("O Fatorial de ", valorFat, "é ", num1)
+   continuacao
+FimProcedimento
+
+
 Procedimento menuprincipal
 Inicio
 
@@ -128,7 +196,8 @@ Escreval("1 - Adição")
 Escreval("2 - Subtração")
 Escreval("3 - Multiplicação")
 Escreval("4 - Divisão ")
-Escreval("5 - Finalizar")
+Escreval("5 - Fatorial ")
+Escreval("6 - Finalizar")
 Escreval("  ")
 Escreva("Digite a opção:")
 Leia(opcao)
@@ -142,6 +211,8 @@ multiplicacao    // chama o procedimento
 Caso "4"
 divisao     // chama o procedimento
 Caso "5"
+fatorial   // chama o procedimento
+ Caso "6"
 FLAG := FALSO   // muda a variável do controle para encerrar o loop
 
 OUTROCASO      // caso a variável tenha algum valor acima de 5 ou abaixo de 1
