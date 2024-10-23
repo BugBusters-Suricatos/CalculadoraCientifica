@@ -88,7 +88,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1727996400&v=beta&t=KfvjbB_IteCf6mpRsmzNo1AmuHDHpjwPI2S_fjtah-s" width="100px;" alt="Foto do Kauã Rabelo"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1730329200&v=beta&t=MqUs5QYR59K0UGzTIPlFL9jLbtZZnBymDciiV2cdwgY" width="100px;" alt="Foto do Kauã Rabelo"/><br>
         <sub>
           <b>Kauã Rabelo</b>
         </sub>
