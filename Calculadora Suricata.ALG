@@ -1,231 +1,288 @@
 Algoritmo "Calculadora Suricata"
 
 Var
-opcao, opcao2 : Caracter   // Opção de escolha
-X,FLAG: LOGICO     // variáveis de controle
-novonumero: inteiro
-num1, num2, result: real
+   opcao, opcao2: Caracter
+   X, FLAG: LOGICO
+   novonumero: inteiro
+   num1, num2, result: real
+   valorFat, fatorialValor, iFat: inteiro
+   periodo, montante: real
 
-
-valorFat, fatorialValor, iFat  : inteiro
-
-funcao FatorialPositivoOuNegativo(n : inteiro):inteiro
+funcao potencia(base: real; expoente: inteiro): real
 var
-   tempFat : inteiro
-	resultado : inteiro
+   resultado: real
+   i: inteiro
+Inicio
+   resultado <- 1
+   para i de 1 ate expoente faca
+      resultado <- resultado * base
+   fimpara
+   retorne resultado
+fimfuncao
+
+funcao FatorialPositivoOuNegativo(n: inteiro): inteiro
+var
+   tempFat: inteiro
+   resultado: inteiro
 Inicio
    tempFat <- n
-   iFat <- n-1
-
-		enquanto iFat  > 1 faca
-			tempFat <- tempFat * iFat
-			iFat <- iFat-1
-		fimenquanto
-
-		resultado <- tempFat
-
-	retorne resultado
+   iFat <- n - 1
+   enquanto iFat > 1 faca
+      tempFat <- tempFat * iFat
+      iFat <- iFat - 1
+   fimenquanto
+   resultado <- tempFat
+   retorne resultado
 fimfuncao
 
-funcao fatorialContinuacao(n : inteiro):inteiro
+funcao fatorialContinuacao(n: inteiro): inteiro
 var
-   tempFat : inteiro
-	resultado : inteiro
+   resultado: inteiro
 Inicio
-
-	se (n = 0) entao
-		resultado <- 1
-	senao
-		se (n > 0) entao
-			resultado <- FatorialPositivoOuNegativo(n)
-		senao
-			resultado <- 1 / FatorialPositivoOuNegativo(-n)
-		fimse
-
-	fimse
-
-	retorne resultado
-
-
+   se (n = 0) entao
+      resultado <- 1
+   senao
+      se (n > 0) entao
+         resultado <- FatorialPositivoOuNegativo(n)
+      senao
+         resultado <- 1 / FatorialPositivoOuNegativo(-n)
+      fimse
+   fimse
+   retorne resultado
 fimfuncao
+
+Procedimento jurosSimples
+Inicio
+   limpatela
+   Escreval("Juros Simples")
+   Escreva("Digite o valor principal (quanto você tem agora): ")
+   Leia(num1)
+   Escreva("Digite a taxa de juros (Ex: 5% = 0.05): ")
+   Leia(num2)
+   Escreva("Digite o período (em anos): ")
+   Leia(periodo)
+   result := num1 * num2 * periodo
+   Escreval("O total de juros é: ", result)
+   continuacao
+FimProcedimento
+
+Procedimento jurosCompostos
+Inicio
+   limpatela
+   Escreval("Juros Compostos")
+   Escreva("Digite o valor principal (quanto você tem agora): ")
+   Leia(num1)
+   Escreva("Digite a taxa de juros (Ex: 5% = 0.05): ")
+   Leia(num2)
+   Escreva("Digite o período (em anos): ")
+   Leia(periodo)
+   montante := num1 * potencia(1 + num2, periodo)
+   result := montante - num1
+   Escreval("O total de juros é: ", result)
+   Escreval("Montante total: ", montante)
+   continuacao
+FimProcedimento
 
 Procedimento continuacao
 Inicio
-Escreval("Opções:")
-Escreval("1 - Continuar operação")
-Escreval("2 - Menu principal")
-Escreval("3 - Finalizar o programa")
-LEIA(opcao2)
-Escolha(opcao2)
-Caso "1"
-num1 := result
-Escreval("Continuando a operação:")
-Escreval("1 - Adição")
-Escreval("2 - Subtração")
-Escreval("3 - Multiplicação")
-Escreval("4 - Divisão ")
-Escreva("Digite a opção:")
-leia(opcao)
-Escreva("Digite outro número para a operação:")
-leia(num2)
-Escolha(opcao)
-Caso "1"
-result := num1+num2
-Escreval(num1," +",num2," =", result)
-Caso "2"
-result := num1-num2
-Escreval(num1," -",num2," =", result)
-Caso "3"
-result := num1*num2
-Escreval(num1," x",num2," =", result)
-Caso "4"
-se num2 = 0 então
-result:=0
-escreval("Não existe divisão por zero!")
-escreval("Digite [Enter]")
-leia(X)
-menuprincipal
-senao
-result := num1/num2
-Escreval(num1," /",num2," =", result)
-continuacao
-fimse
-Fimescolha
-
-Caso "2"
-menuprincipal
-Caso "3"
-Fimalgoritmo
-Fimescolha
+   Escreval("Opções:")
+   Escreval("1 - Continuar operação")
+   Escreval("2 - Menu principal")
+   Escreval("3 - Finalizar o programa")
+   LEIA(opcao2)
+   Escolha(opcao2)
+      Caso "1"
+         Escreval("Continuando a operação:")
+         Escreval("1 - Adição")
+         Escreval("2 - Subtração")
+         Escreval("3 - Multiplicação")
+         Escreval("4 - Divisão ")
+         Escreval("5 - Juros Simples")
+         Escreval("6 - Juros Compostos")
+         Escreva("Digite a opção:")
+         leia(opcao)
+         num1 := result
+         Escolha(opcao)
+            Caso "1"
+                  Escreva("Digite outro número para a operação:")
+               leia(num2)
+               result := num1 + num2
+               Escreval(num1, " + ", num2, " = ", result)
+               continuacao
+            Caso "2"
+                   Escreva("Digite outro número para a operação:")
+               leia(num2
+               result := num1 - num2
+               Escreval(num1, " - ", num2, " = ", result)
+               continuacao
+            Caso "3"
+                 Escreva("Digite outro número para a operação:")
+               leia(num2
+               result := num1 * num2
+               Escreval(num1, " x ", num2, " = ", result)
+               continuacao
+            Caso "4"
+                  Escreva("Digite outro número para a operação:")
+               leia(num2
+               se num2 = 0 então
+                  Escreval("Não existe divisão por zero!")
+                  Escreval("Digite [Enter]")
+                  leia(X)
+                  menuprincipal
+               senao
+                  result := num1 / num2
+                  Escreval(num1, " / ", num2, " = ", result)
+                  continuacao
+               fimse
+            Caso "5"
+               Escreva("Digite a taxa de juros (Ex: 5% = 0.05): ")
+   Leia(num2)
+   Escreva("Digite o período (em anos): ")
+   Leia(periodo)
+   result := num1 * num2 * periodo
+   Escreval("O total de juros é: ", result)
+   continuacao
+            Caso "6"
+               Escreva("Digite a taxa de juros (Ex: 5% = 0.05): ")
+   Leia(num2)
+   Escreva("Digite o período (em anos): ")
+   Leia(periodo)
+   montante := num1 * potencia(1 + num2, periodo)
+   result := montante - num1
+   Escreval("O total de juros é: ", result)
+   Escreval("Montante total: ", montante)
+   continuacao
+         Fimescolha
+      Caso "2"
+         menuprincipal
+      Caso "3"
+         Fimalgoritmo
+   Fimescolha
 FimProcedimento
 
 Procedimento adicao
 Inicio
-limpatela
-Escreval("Adição")
-Escreva("Digite o primeiro número:")
-LEIA(num1)
-Escreva("Digite o segundo número:")
-LEIA(num2)
-result := num1+num2
-Escreval(num1," +",num2," =", result)
-continuacao
+   limpatela
+   Escreval("Adição")
+   Escreva("Digite o primeiro número:")
+   LEIA(num1)
+   Escreva("Digite o segundo número:")
+   LEIA(num2)
+   result := num1 + num2
+   Escreval(num1, " + ", num2, " = ", result)
+   continuacao
 FimProcedimento
 
 Procedimento subtracao
 Inicio
-limpatela
-Escreval("Subtração")
-Escreva("Digite o primeiro número:")
-LEIA(num1)
-Escreva("Digite o segundo número:")
-LEIA(num2)
-result := num1-num2
-Escreval(num1," -",num2," =", result)
-continuacao
+   limpatela
+   Escreval("Subtração")
+   Escreva("Digite o primeiro número:")
+   LEIA(num1)
+   Escreva("Digite o segundo número:")
+   LEIA(num2)
+   result := num1 - num2
+   Escreval(num1, " - ", num2, " = ", result)
+   continuacao
 FimProcedimento
 
 Procedimento multiplicacao
 Inicio
-limpatela
-Escreval("Multiplicação")
-Escreva("Digite o primeiro número:")
-LEIA(num1)
-Escreva("Digite o segundo número:")
-LEIA(num2)
-result := num1*num2
-Escreval(num1," x",num2," =", result)
-continuacao
+   limpatela
+   Escreval("Multiplicação")
+   Escreva("Digite o primeiro número:")
+   LEIA(num1)
+   Escreva("Digite o segundo número:")
+   LEIA(num2)
+   result := num1 * num2
+   Escreval(num1, " x ", num2, " = ", result)
+   continuacao
 FimProcedimento
 
 Procedimento divisao
 Inicio
-limpatela
-Escreval("Divisão")
-Escreva("Digite o primeiro número:")
-LEIA(num1)
-Escreva("Digite o segundo número:")
-LEIA(num2)
-
-se num2 = 0 então
-Escreval("Não existe divisão por ZERO")
-Escreval("tecle <enter>")
-LEIA(X)
-menuprincipal
-
-senão
-result := num1/num2
-Escreval(num1," /",num2," =", result)
-continuacao
-fimse
-
+   limpatela
+   Escreval("Divisão")
+   Escreva("Digite o primeiro número:")
+   LEIA(num1)
+   Escreva("Digite o segundo número:")
+   LEIA(num2)
+   se num2 = 0 então
+      Escreval("Não existe divisão por ZERO")
+      Escreval("Tecle <enter>")
+      LEIA(X)
+      menuprincipal
+   senao
+      result := num1 / num2
+      Escreval(num1, " / ", num2, " = ", result)
+      continuacao
+   fimse
 FimProcedimento
 
 Procedimento fatorial
-
 Inicio
-	limpatela
-	fatorialValor <- 0
-	Escreval("Fatorial")
-	Escreva("Digite o número:")
-	Leia(valorFat)
-
-	se (valorFat = 0) entao
-		valorFat <- 1
-	senao
-   	se (valorFat > 0) entao
+   limpatela
+   fatorialValor <- 0
+   Escreval("Fatorial")
+   Escreba("Digite o número:")
+   Leia(valorFat)
+   se (valorFat = 0) entao
+      valorFat <- 1
+   senao
+      se (valorFat > 0) entao
          num1 <- FatorialPositivoOuNegativo(valorFat)
-   	senao
+      senao
          num1 <- (1 / FatorialPositivoOuNegativo(-valorFat))
-   	fimse
-
-	fimse
+      fimse
+   fimse
    result := num1
-	Escreval("O Fatorial de ", valorFat, "é ", num1)
+   Escreval("O Fatorial de ", valorFat, " é ", num1)
    continuacao
 FimProcedimento
 
-
 Procedimento menuprincipal
 Inicio
-
-X := VERDADEIRO
-limpatela
-Escreval("*** Menu ***")
-Escreval("1 - Adição")
-Escreval("2 - Subtração")
-Escreval("3 - Multiplicação")
-Escreval("4 - Divisão ")
-Escreval("5 - Fatorial ")
-Escreval("6 - Finalizar")
-Escreval("  ")
-Escreva("Digite a opção:")
-Leia(opcao)
-Escolha opcao
-Caso "1"
-adicao    // chama o procedimento
-Caso "2"
-subtracao    // chama o procedimento
-Caso "3"
-multiplicacao    // chama o procedimento
-Caso "4"
-divisao     // chama o procedimento
-Caso "5"
-fatorial   // chama o procedimento
- Caso "6"
-FLAG := FALSO   // muda a variável do controle para encerrar o loop
-
-OUTROCASO      // caso a variável tenha algum valor acima de 5 ou abaixo de 1
-Escreval("Opção inválida")
-Escreva("tecle <enter>")
-LEIA(X)
-Fimescolha
-
+   X := VERDADEIRO
+   limpatela
+   Escreval("*** Menu ***")
+   Escreval("1 - Adição")
+   Escreval("2 - Subtração")
+   Escreval("3 - Multiplicação")
+   Escreval("4 - Divisão ")
+   Escreval("5 - Fatorial ")
+   Escreval("6 - Juros Simples")
+   Escreval("7 - Juros Compostos")
+   Escreval("8 - Finalizar")
+   Escreval("  ")
+   Escreva("Digite a opção:")
+   Leia(opcao)
+   Escolha opcao
+      Caso "1"
+         adicao
+      Caso "2"
+         subtracao
+      Caso "3"
+         multiplicacao
+      Caso "4"
+         divisao
+      Caso "5"
+         fatorial
+      Caso "6"
+         jurosSimples
+      Caso "7"
+         jurosCompostos
+      Caso "8"
+         FLAG := FALSO
+      OutroCaso
+         Escreval("Opção inválida")
+         Escreva("tecle <enter>")
+         LEIA(X)
+   Fimescolha
 FimProcedimento
 
 Inicio
-FLAG := verdadeiro
-ENQUANTO FLAG FAÇA
-menuprincipal
-FIMENQUANTO
+   FLAG := verdadeiro
+   enquanto FLAG faca
+      menuprincipal
+   fimenquanto
 Fimalgoritmo
