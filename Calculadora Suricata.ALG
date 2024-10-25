@@ -111,19 +111,19 @@ Inicio
                continuacao
             Caso "2"
                    Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                result := num1 - num2
                Escreval(num1, " - ", num2, " = ", result)
                continuacao
             Caso "3"
                  Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                result := num1 * num2
                Escreval(num1, " x ", num2, " = ", result)
                continuacao
             Caso "4"
                   Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                se num2 = 0 então
                   Escreval("Não existe divisão por zero!")
                   Escreval("Digite [Enter]")
@@ -240,6 +240,58 @@ Inicio
    continuacao
 FimProcedimento
 
+Procedimento equacaoSegundo
+var
+   a, b, c, delta, x1, x2: real
+Inicio
+    escreval(" ")
+    escreval("Considere a = x², b = x, c = -15. Exemplo: (x² + 2x -15 = 0)")
+    escreval(" ")
+
+    escreval("Digite o valor de a: ")
+    leia(a)
+
+    escreval("Digite o valor de b: ")
+    leia(b)
+
+    escreval("Digite o valor de c: ")
+    leia(c)
+
+    se (a = 0) entao
+        escreval(" ")
+        escreval("Não é uma equação do segundo grau.")
+    senao
+        delta := (b^2) - 4 * a * c
+
+      se (delta < 0) entao
+        escreval(" ")
+        escreval("A equação não possui raízes reais.")
+      senao
+         x1 := (-b + raizq(delta)) / (2 * a)
+         x2 := (-b - raizq(delta)) / (2 * a)
+
+        escreval(" ")
+        escreval("As raízes da equação são: x1 = ", x1, " e x2 = ", x2)
+        escreval(" ")
+      fimse
+    fimse
+   
+    escreval(" ")
+    escreval("Deseja realizar outra operação?")
+    escreval("1 - Sim")
+    escreval("2 - Não. Retornar ao Menu Principal")
+    leia(opcao)
+   
+    Escolha opcao
+        Caso "1"
+           equacaoSegundo
+        Caso "2"
+           menuprincipal
+    Fimescolha
+
+FimProcedimento
+
+
 Procedimento menuprincipal
 Inicio
    X := VERDADEIRO
@@ -252,7 +304,8 @@ Inicio
    Escreval("5 - Fatorial ")
    Escreval("6 - Juros Simples")
    Escreval("7 - Juros Compostos")
-   Escreval("8 - Finalizar")
+   Escreval("8 - Equação de Segundo Grau")
+   Escreval("9 - Finalizar")
    Escreval("  ")
    Escreva("Digite a opção:")
    Leia(opcao)
@@ -272,6 +325,8 @@ Inicio
       Caso "7"
          jurosCompostos
       Caso "8"
+         equacaoSegundo
+      Caso "9"
          FLAG := FALSO
       OutroCaso
          Escreval("Opção inválida")
