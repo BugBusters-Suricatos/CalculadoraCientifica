@@ -121,7 +121,7 @@ Inicio
           array[i] <- resto
           quo := quo/2
           i := i + 1
-         até quo <= 1
+         até quo < 1
 
          escreval("O valor binário é: ")
          para i de i - 1 ate 1 passo -1 faca
