@@ -20,6 +20,7 @@ Inicio
    retorne resultado
 fimfuncao
 
+//função chamada para calcular o fatorial e retornar o resultado para a procedure
 funcao FatorialPositivoOuNegativo(n: inteiro): inteiro
 var
    tempFat: inteiro
@@ -35,6 +36,7 @@ Inicio
    retorne resultado
 fimfuncao
 
+//funcao secundária criada para permitir que o Continuacao não fosse quebrado pela minha logica
 funcao fatorialContinuacao(n: inteiro): inteiro
 var
    resultado: inteiro
@@ -253,6 +255,7 @@ Inicio
    Escreval("Fatorial")
    Escreval("Digite o número:")
    Leia(valorFat)
+//lógica para garantir que o fatorial de 1, ou de numeros negativos, também funcione
    se (valorFat = 0) entao
       valorFat <- 1
    senao
