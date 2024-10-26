@@ -11,7 +11,7 @@ numero, resultadoHex, resultadoBinario: caractere
 
 Inicio
 
-escreval("Selecione a converção")
+escreval("Selecione a conversão")
 escreval("1-Decimal para binário")
 escreval("2-Binário para decimal")
 escreval("3-Binário para octal")
@@ -49,14 +49,14 @@ senão
           array[i] <- resto
           quo := quo/2
           i := i + 1
-         até quo <= 1
+
+         até quo < 1
 
          escreval("O valor binário é: ")
          para i de i - 1 ate 1 passo -1 faca
             escreva(array[i])
          fimpara
          escreval("")
-
 
       caso 2
            repita
