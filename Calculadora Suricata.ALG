@@ -1,7 +1,7 @@
 Algoritmo "Calculadora Suricata"
 
 Var
-   opcao, opcao2: Caracter
+   a, b, c, opcao, opcao2: Caracter
    X, FLAG: LOGICO
    novonumero: inteiro
    num1, num2, result: real
@@ -83,13 +83,40 @@ Inicio
    continuacao
 FimProcedimento
 
-Procedimento continuacao
+Procedimento continuaconcat
 Inicio
+   Escreval(" ")
    Escreval("Opções:")
    Escreval("1 - Continuar operação")
    Escreval("2 - Menu principal")
    Escreval("3 - Finalizar o programa")
    LEIA(opcao2)
+   Escreval("  ")
+   Escolha(opcao2)
+      Caso "1"
+      escreva ("Escreva a próxima string: ")
+      leia (b)
+      c := (a + b)
+      escreva("O resultado é: ", c)
+      Escreval("  ")
+      a := c
+      continuaconcat
+   Caso "2"
+      menuprincipal
+   Caso "3"
+      Fimalgoritmo
+   Fimescolha
+FimProcedimento
+
+Procedimento continuacao
+Inicio
+   Escreval("  ")
+   Escreval("Opções:")
+   Escreval("1 - Continuar operação")
+   Escreval("2 - Menu principal")
+   Escreval("3 - Finalizar o programa")
+   LEIA(opcao2)
+   Escreval("  ")
    Escolha(opcao2)
       Caso "1"
          Escreval("Continuando a operação:")
@@ -111,19 +138,19 @@ Inicio
                continuacao
             Caso "2"
                    Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                result := num1 - num2
                Escreval(num1, " - ", num2, " = ", result)
                continuacao
             Caso "3"
                  Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                result := num1 * num2
                Escreval(num1, " x ", num2, " = ", result)
                continuacao
             Caso "4"
                   Escreva("Digite outro número para a operação:")
-               leia(num2
+               leia(num2)
                se num2 = 0 então
                   Escreval("Não existe divisão por zero!")
                   Escreval("Digite [Enter]")
@@ -224,7 +251,7 @@ Inicio
    limpatela
    fatorialValor <- 0
    Escreval("Fatorial")
-   Escreba("Digite o número:")
+   Escreval("Digite o número:")
    Leia(valorFat)
    se (valorFat = 0) entao
       valorFat <- 1
@@ -240,6 +267,20 @@ Inicio
    continuacao
 FimProcedimento
 
+procedimento concatenacao
+inicio
+   limpatela
+   escreva ("Escreva a primeira string: ")
+   leia (a)
+   escreva ("Escreva a segunda string: ")
+   leia (b)
+   c := a+b
+   escreva("O resultado é: ", c)
+   a := c
+   Escreval("  ")
+   continuaconcat
+FimProcedimento
+
 Procedimento menuprincipal
 Inicio
    X := VERDADEIRO
@@ -252,7 +293,8 @@ Inicio
    Escreval("5 - Fatorial ")
    Escreval("6 - Juros Simples")
    Escreval("7 - Juros Compostos")
-   Escreval("8 - Finalizar")
+   Escreval("8 - Concatenação de String")
+   Escreval("9 - Finalizar")
    Escreval("  ")
    Escreva("Digite a opção:")
    Leia(opcao)
@@ -272,6 +314,8 @@ Inicio
       Caso "7"
          jurosCompostos
       Caso "8"
+         concatenacao
+      Caso "9"
          FLAG := FALSO
       OutroCaso
          Escreval("Opção inválida")
