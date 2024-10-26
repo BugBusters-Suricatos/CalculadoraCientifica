@@ -1,10 +1,10 @@
-## Anotações relacionadas as atividades do PO com o cliente
+# Anotações relacionadas as atividades do PO com o cliente
 - As perguntas devem minimizar as dúvidas e não gerar mais dúvidas
 - Nas perguntas começar com o geral e ir se aprofundando nos detalhes, não fazer o contrário perguntando detalhes sem ter uma visão do geral
 - Inverter os papeis, se colocar no lugar do cliente ajuda a entender o que importa mais
 - Pergunte-se se a pergunta faz sentido pra vc se vc fosse o cliente
 
-## Anotações relacionadas ao processo de desenvolvimento
+# Anotações relacionadas ao processo de desenvolvimento
 - Entender os fluxos (diagrama BPMN ajuda a mapear fluxos). Precisa ser algo simples, para não perder tempo.
 - Desenhar ajuda no entendimento do problema
 - Os diagramas que serão exibidos ao cliente devem ser simples, presume-se que o cliente não tem conhecimento técnico para interpretar diagramas complexo
@@ -12,7 +12,7 @@
 - A primeira sprint deve ser usada para vender o produto para o cliente, mostrar como vai ser a aplicação (rascunho das telas, fluxos, etc.), como o produto resolverá o problema.
 
 
-## Links Importantes de ferramentas, tutoriais e ideias para o projeto API
+# Links Importantes de ferramentas, tutoriais e ideias para o projeto API
 
 
 
