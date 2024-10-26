@@ -19,26 +19,32 @@
 >Criar uma solução computacional , onde será possível usar uma calculadora científica que o usuário possa fazer suas expressões matemática com tranquilidade e melhor experiência do usuário. 
 
 ## :page_facing_up: Requisitos Funcionais
-> * Todas as operações seja feitas;
-> * oferece uma ampla gama de funções;
-> * raízes quadradas, potenciação, integração numérica
+> * Deve permitir ao usuário a opção de realizar mais de uma operação por execução, ou finalizar a aplicação, através de um menu;
+> * Deve implementar as operações básicas de soma, multiplicação, subtração e divisão;
+> * Deve implementar a operação de cálculo fatorial;
+> * Deve implementar a operação de cálculo de função de Segundo Grau;
+> * Deve implementar a operação de conversão de base numérica (B10 X B2 / B2 x B10 / B2 x B8 / B8 x B2 / B2 x B16 / B16 x B2);
+> * Deve implementar a função de concatenação de 2 strings;
+> * Deve implementar a função de Juros Simples e Juros Compostos;
+
+
+
+
 
 
 ## :page_with_curl: Requisitos Não Funcionais
 > * Documentações (manual de usuário e instruções de uso).
 
 
-## 📫 Contribuindo para <nome_do_projeto>
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## 📫 Competências
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+> * Aplicar em projetos técnicas de programação na construção de algoritmos
+> * Utilizar IDE´s na implementação de algoritmos em TypeScript
+> * Exercitar compromisso e responsabilidade dos membros da Equipe (sucesso / fracasso de TODOS)
+> * Identificar nos estudos de casos pontos norteadores para a prática e o desenvolvimento do cotidiano e benchmarking
+> * Documentação de Requisitos com User Stories
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Membros
 ## Membros do Projeto
