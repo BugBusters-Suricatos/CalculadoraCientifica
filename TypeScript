@@ -1,0 +1,317 @@
+
+// Declaração de variáveis e funções principais
+var string1 = "";
+var string2 = "";
+var stringfinal = "";
+var opcao = "";
+var opcao2 = "";
+var resultadoHex = "";
+var resultadoBinario = "";
+var n1 = 0;
+var resto = 0;
+var i = 0;
+var decimal = 0;
+var potenciac = 0;
+var k = 0;
+var j = 0;
+var FLAG = true;
+var array = Array(1000).fill(0);
+var octal = Array(1000).fill(0);
+var hex = Array(1000).fill(0);
+var h = Array(1000).fill("");
+// Função de potência
+function potencia(base, expoente) {
+    var resultado = 1;
+    for (var i_1 = 1; i_1 <= expoente; i_1++) {
+        resultado *= base;
+    }
+    return resultado;
+}
+// Função de fatorial positivo ou negativo
+function fatorialPositivoOuNegativo(n) {
+    if (n === 0)
+        return 1;
+    var tempFat = Math.abs(n);
+    var iFat = tempFat - 1;
+    while (iFat > 1) {
+        tempFat *= iFat;
+        iFat--;
+    }
+    return n > 0 ? tempFat : -tempFat;
+}
+// Função de conversões
+function conversoes() {
+    console.clear();
+    console.log("Selecione a conversão:");
+    console.log("1 - Decimal para binário");
+    console.log("2 - Binário para decimal");
+    console.log("3 - Binário para octal");
+    console.log("4 - Octal para binário");
+    console.log("5 - Binário para hexadecimal");
+    console.log("6 - Hexadecimal para binário");
+    console.log("7 - Menu Principal");
+    console.log("8 - Finalizar o programa");
+    var selecao = parseInt(prompt("Digite a opção de conversão: ") || "0");
+    switch (selecao) {
+        case 1:
+            decimalParaBinario();
+            break;
+        case 2:
+            binarioParaDecimal();
+            break;
+        case 3:
+            binarioParaOctal();
+            break;
+        case 4:
+            octalParaBinario();
+            break;
+        case 5:
+            binarioParaHexadecimal();
+            break;
+        case 6:
+            hexadecimalParaBinario();
+            break;
+        case 7:
+            menuPrincipal();
+            break;
+        case 8:
+            FLAG = false;
+            break;
+        default:
+            console.log("Opção inválida");
+            conversoes();
+    }
+}
+// Funções de conversão de base
+function decimalParaBinario() {
+    n1 = parseInt(prompt("Digite um número inteiro e positivo que deseja converter: ") || "0");
+    if (n1 < 0) {
+        console.log("Número inválido!");
+        continuacao();
+        return;
+    }
+    var quo = n1;
+    i = 0;
+    while (quo >= 1) {
+        resto = quo % 2;
+        array[i] = resto;
+        quo = Math.floor(quo / 2);
+        i++;
+    }
+    console.log("O valor binário é:");
+    for (var j_1 = i - 1; j_1 >= 0; j_1--) {
+        process.stdout.write(array[j_1].toString());
+    }
+    console.log();
+    continuacao();
+}
+function binarioParaDecimal() {
+    var bin = prompt("Digite o número binário: ") || "0";
+    var decimal = parseInt(bin, 2);
+    console.log("O valor decimal é:", decimal);
+    continuacao();
+}
+function binarioParaOctal() {
+    var bin = prompt("Digite o número binário: ") || "0";
+    var decimal = parseInt(bin, 2);
+    console.log("O valor octal é:", decimal.toString(8));
+    continuacao();
+}
+function octalParaBinario() {
+    var oct = prompt("Digite o número octal: ") || "0";
+    var decimal = parseInt(oct, 8);
+    console.log("O valor binário é:", decimal.toString(2));
+    continuacao();
+}
+function binarioParaHexadecimal() {
+    var bin = prompt("Digite o número binário: ") || "0";
+    var decimal = parseInt(bin, 2);
+    console.log("O valor hexadecimal é:", decimal.toString(16).toUpperCase());
+    continuacao();
+}
+function hexadecimalParaBinario() {
+    var hex = prompt("Digite o número hexadecimal: ") || "0";
+    var decimal = parseInt(hex, 16);
+    console.log("O valor binário é:", decimal.toString(2));
+    continuacao();
+}
+// Função de Fatorial
+function fatorial() {
+    var valorFat = parseInt(prompt("Digite o número para o fatorial: ") || "0");
+    if (valorFat === 0) {
+        console.log("O Fatorial de 0 é 1");
+    }
+    else if (valorFat > 0) {
+        console.log("O Fatorial de ".concat(valorFat, " \u00E9 ").concat(fatorialPositivoOuNegativo(valorFat)));
+    }
+    else {
+        console.log("O Fatorial de ".concat(valorFat, " \u00E9 ").concat(1 / fatorialPositivoOuNegativo(-valorFat)));
+    }
+    continuacao();
+}
+// Função para concatenar strings
+function concatenacao() {
+    string1 = prompt("Digite a primeira string: ") || "";
+    string2 = prompt("Digite a segunda string: ") || "";
+    stringfinal = string1 + string2;
+    console.log("O resultado da concatenação é:", stringfinal);
+    continuacao();
+}
+// Procedimento de Continuação
+function continuacao() {
+    console.log("Opções:");
+    console.log("1 - Continuar operação");
+    console.log("2 - Menu principal");
+    console.log("3 - Finalizar o programa");
+    opcao2 = prompt("Escolha uma opção: ") || "2";
+    switch (opcao2) {
+        case "1":
+            menuPrincipal();
+            break;
+        case "2":
+            menuPrincipal();
+            break;
+        case "3":
+            FLAG = false;
+            break;
+        default:
+            console.log("Opção inválida");
+            continuacao();
+    }
+}
+// Menu principal
+function menuPrincipal() {
+    console.clear();
+    console.log("*** Menu ***");
+    console.log("1 - Adição");
+    console.log("2 - Subtração");
+    console.log("3 - Multiplicação");
+    console.log("4 - Divisão");
+    console.log("5 - Fatorial");
+    console.log("6 - Juros Simples");
+    console.log("7 - Juros Compostos");
+    console.log("8 - Concatenação de String");
+    console.log("9 - Conversões (Decimal/Binário/Octal/Hexadecimal)");
+    console.log("10 - Equação de Segundo Grau");
+    console.log("0 - Finalizar");
+    opcao = prompt("Digite a opção: ") || "0";
+    switch (opcao) {
+        case "1":
+            adicao();
+            break;
+        case "2":
+            subtracao();
+            break;
+        case "3":
+            multiplicacao();
+            break;
+        case "4":
+            divisao();
+            break;
+        case "5":
+            fatorial();
+            break;
+        case "6":
+            jurosSimples();
+            break;
+        case "7":
+            jurosCompostos();
+            break;
+        case "8":
+            concatenacao();
+            break;
+        case "9":
+            conversoes();
+            break;
+        case "10":
+            equacaoSegundoGrau();
+            break;
+        case "0":
+            FLAG = false;
+            break;
+        default:
+            console.log("Opção inválida");
+            menuPrincipal();
+    }
+}
+// Funções Aritméticas
+function adicao() {
+    var num1 = parseFloat(prompt("Digite o primeiro número: ") || "0");
+    var num2 = parseFloat(prompt("Digite o segundo número: ") || "0");
+    console.log("".concat(num1, " + ").concat(num2, " = ").concat(num1 + num2));
+    continuacao();
+}
+function subtracao() {
+    var num1 = parseFloat(prompt("Digite o primeiro número: ") || "0");
+    var num2 = parseFloat(prompt("Digite o segundo número: ") || "0");
+    console.log("".concat(num1, " - ").concat(num2, " = ").concat(num1 - num2));
+    continuacao();
+}
+function multiplicacao() {
+    var num1 = parseFloat(prompt("Digite o primeiro número: ") || "0");
+    var num2 = parseFloat(prompt("Digite o segundo número: ") || "0");
+    console.log("".concat(num1, " x ").concat(num2, " = ").concat(num1 * num2));
+    continuacao();
+}
+function divisao() {
+    var num1 = parseFloat(prompt("Digite o primeiro número: ") || "0");
+    var num2 = parseFloat(prompt("Digite o segundo número: ") || "0");
+    if (num2 === 0) {
+        console.log("Não existe divisão por ZERO");
+    }
+    else {
+        console.log("".concat(num1, " / ").concat(num2, " = ").concat(num1 / num2));
+    }
+    continuacao();
+}
+// Procedimentos de Juros Simples e Compostos
+function jurosSimples() {
+    console.clear();
+    console.log("Juros Simples");
+    var num1 = parseFloat(prompt("Digite o valor principal (quanto você tem agora): ") || "0");
+    var num2 = parseFloat(prompt("Digite a taxa de juros (Ex: 5% = 0.05): ") || "0");
+    var periodo = parseFloat(prompt("Digite o período (em anos): ") || "0");
+    var result = num1 * num2 * periodo;
+    console.log("O total de juros é:", result);
+    continuacao();
+}
+function jurosCompostos() {
+    console.clear();
+    console.log("Juros Compostos");
+    var num1 = parseFloat(prompt("Digite o valor principal (quanto você tem agora): ") || "0");
+    var num2 = parseFloat(prompt("Digite a taxa de juros (Ex: 5% = 0.05): ") || "0");
+    var periodo = parseFloat(prompt("Digite o período (em anos): ") || "0");
+    var montante = num1 * potencia(1 + num2, periodo);
+    var result = montante - num1;
+    console.log("O total de juros é:", result);
+    console.log("Montante total:", montante);
+    continuacao();
+}
+// Equação de Segundo Grau
+function equacaoSegundoGrau() {
+    var a = parseFloat(prompt("Digite o valor de a: ") || "0");
+    var b = parseFloat(prompt("Digite o valor de b: ") || "0");
+    var c = parseFloat(prompt("Digite o valor de c: ") || "0");
+    if (a === 0) {
+        console.log("Não é uma equação do segundo grau.");
+    }
+    else {
+        var delta = (Math.pow(b, 2)) - 4 * a * c;
+        if (delta < 0) {
+            console.log("A equação não possui raízes reais.");
+        }
+        else {
+            var x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            var x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            console.log("As ra\u00EDzes da equa\u00E7\u00E3o s\u00E3o: x1 = ".concat(x1, " e x2 = ").concat(x2));
+        }
+    }
+    continuacao();
+}
+// Loop principal de execução
+function main() {
+    while (FLAG) {
+        menuPrincipal();
+    }
+}
+main();
