@@ -149,7 +149,7 @@
 > * [Portugol](https://portugol.dev/)
 > * [Git/Github (Controle de versão)](https://github.com/)
 > * [Typescript](https://www.typescriptlang.org/)
-> * [Trello](Gerenciamento do Time)(https://www.trello.com) 
+> * [Trello](https://www.trello.com) 
 
 
 ## 📝 Licença
