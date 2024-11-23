@@ -45,6 +45,19 @@
 > * Identificar nos estudos de casos pontos norteadores para a prática e o desenvolvimento do cotidiano e benchmarking
 > * Documentação de Requisitos com User Stories
 
+## :date: Funções/Sprints
+
+| ID   | User Stories                                                 | Épico                       | Sprint                                                    | Prioridade |
+| ---- | ------------------------------------------------------------ | --------------------------- | --------------------------------------------------------- | ---------- |
+| 1 | Foi criado a calculadora em visualg com o menu .| Desenvolvimento do produto |sprint 1 | alta |
+| 2 | Foi implementado as funções da calculadora para fazer as operações de soma, subtração, multiplicação e divisão. | Funções utlizavél para clinete | sprint 1 | alta |
+| 3 | Foi implementado a operação de cálculo fatorial . | Função utlizavél para cliente| sprint 2 | alta |
+| 4 | Foi implementado a operação de cálculo de função de Segundo Grau. |  Função utlizavél para cliente | sprint 2  | alta |
+| 5 |Foi implementado a operação de conversão de base numérica (B10 X B2 / B2 x B10 / B2 x B8 / B8 x B2 / B2 x B16 / B16 x B2).| Função utlizavél para cliente | sprint 3 | alta |
+| 6 | Foi implementado a função de concatenação de 2 strings. | Função utlizavél para cliente | sprint 3 | alta |
+| 7 | Foi implementado a função de Juros Simples e Juros Compostos . |Função utlizavél para cliente | sprint 3 | alta |
+| 8 | O objetivo é criar uma calculadora completa e versátil, aproveitando os recursos da linguagem TypeScript. | Funcionalidade suscetível | sprint 3 | alta |
+
 
 ## Membros
 ## Membros do Projeto
