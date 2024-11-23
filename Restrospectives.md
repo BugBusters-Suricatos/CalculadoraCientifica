@@ -10,7 +10,7 @@
 </p>
 
 
-## :dart: Objetivo Sprint 1
+## :dart: Objetivo Sprint 1/2/3.
 
 
 > * Planejamento e Organização: Iniciamos a sprint com sessões de planejamento, onde definimos metas e prioridades claras. Estabelecemos um cronograma para reuniões regulares e feedback, garantindo uma comunicação eficaz.
@@ -19,19 +19,25 @@
 > * Documentação Completa: Criamos uma documentação abrangente que inclui uma visão geral do projeto e seus principais requisitos. Isso servirá como um guia fundamental para toda a equipe e partes interessadas.
 
 
-## :date: Sprint 1 
+## :date: Sprint 1/2 
 
 | ID   | User Stories                                                 | Épico                       | Sprint                                                    | Prioridade |
 | ---- | ------------------------------------------------------------ | --------------------------- | --------------------------------------------------------- | ---------- |
-| 1 | Como cliente desejo ver o backlog do produto para que eu possa ver o planejamneto da equipe para o produto.| Desenvolver Backlog do produto | 1 | - |
-| 2 | Como cliente desejo usar a calculadora para fazer as operações de soma, subtração, multiplicação e divisão. | Essas funções estejam utlizavél | 2 | - |
-| 3 | Como cliente desejo que tenha um menu para voltar e fazer outra operação ou sair . |Essas funções estejam utlizavél | 3 | - |
-| 4 | Como cliente quero essa aplicação seja facil e funcional que qualquer pessoa em qualquer idade possa utlizar. | funcionalidade suscetível | 4 | - |
-
+| 1 | Como cliente desejo ver o backlog do produto para que eu possa ver o planejamneto da equipe para o produto.| Desenvolver Backlog do produto | sprint 1 | Concluído |
+| 2 | Como cliente desejo usar a calculadora para fazer as operações de soma, subtração, multiplicação e divisão. | Essas funções estejam utlizavél | sprint 1 |  Concluído |
+| 3 | Como cliente desejo que tenha um menu para voltar e fazer outra operação ou sair . |Essas funções estejam utlizavél | sprint 1 |  Concluído  |
+| 4 | Como cliente quero essa aplicação seja facil e funcional que qualquer pessoa em qualquer idade possa utlizar. | funcionalidade suscetível | sprint 1 |  Concluído  |
+| 5 | Como cliente desejo ver o produto a operação de cálculo fatorial.| Desenvolvimento do produto | sprint 2 |  Concluído  |
+| 6 | Como cliente desejo a operação de cálculo de função de Segundo Grau. | Desenvolvimento do produto  | sprint 2 |  Concluído  |
+| 7 | Como cliente desejo a operação de conversão de base numérica (B10 X B2 / B2 x B10 / B2 x B8 / B8 x B2 / B2 x B16 / B16 x B2) . |Desenvolvimento do produto | sprint 3 |  Concluído  |
+| 8 | Como cliente desejo a implementação da função de concatenação de 2 strings. | Desenvolvimento do produto | sprint 3 |  Concluído  |
+| 9 | Como cliente desejo a implementação da função de Juros Simples e Juros Compostos . |Desenvolvimento do produto | sprint 3 |  Concluído  |
+| 10 | Como cliente o objetivo é criar uma calculadora completa e versátil, aproveitando os recursos da linguagem TypeScript. | Desenvolvimento do produto | sprint 3 |  Concluído  |
 
 
 
 ## :chart_with_downwards_trend: Pontos positivos, mudanças necessarias, itens de acão
+
 
 ## :dart: Pontos positivos
 Reuniões Semanais, compromentimento da equipe, Produtividade das participantes, efeciência na entrega.
@@ -46,7 +52,7 @@ Reuniões mais frequentes entre o time, treinar as apresentações.
 ## :calendar: Cronograma
 > - [x] 05/09 - Kick-off ⌛
 > - [x] 09/09 a 29/09 - Sprint 1 | ✔️ 
-> - [x] 07/10 a 27/10 - Sprint 2 | ✖️
+> - [x] 07/10 a 27/10 - Sprint 2 | ✔️ 
 > - [x] 04/11 a 24/11 - Sprint 3 | ✖️
 > - [x] 12/12 - Feira de soluções
 
@@ -56,5 +62,6 @@ Reuniões mais frequentes entre o time, treinar as apresentações.
 > * [Portugol](https://portugol.dev/)
 > * [Git/Github (Controle de versão)](https://github.com/)
 > * [Typescript](https://www.typescriptlang.org/)
+> * [Trello](https://www.trello.com) 
 
 
