@@ -107,7 +107,7 @@
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1730329200&v=beta&t=MqUs5QYR59K0UGzTIPlFL9jLbtZZnBymDciiV2cdwgY" width="100px;" alt="Foto do Kauã Rabelo"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQHdf8BOEMnwfA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719439773914?e=1733166000&v=beta&t=mixkwTiqRrtUcn43d7b7JsYA_rNMqEdcPsrenDZLJns" width="100px;" alt="Foto do Kauã Rabelo"/><br>
         <sub>
           <b>Kauã Rabelo</b>
         </sub>
@@ -115,7 +115,7 @@
     </td>    
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://media.licdn.com/dms/image/v2/D4D35AQECYQD2jM6tVQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680028876588?e=1730329200&v=beta&t=YbvesDbvG-Xc6zqthtOAhxJib4FoyCpHjiqtD7GgSxE" width="100px;" alt="Foto do William Honda"/><br>
+        <img src="https://media.licdn.com/dms/image/v2/D4D35AQECYQD2jM6tVQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680028876588?e=1733166000&v=beta&t=QxjM8gx2PWH0RfmAxVujVvoljy8dWOgqMs8Fbv3Av8o" width="100px;" alt="Foto do William Honda"/><br>
         <sub>
           <b>William Honda</b>
         </sub>
